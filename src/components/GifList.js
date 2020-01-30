@@ -5,9 +5,12 @@ class GifList extends React.Component {
 
     render() {
         return (
-            <ul>
-                {this.props.searchResults}
-            </ul>
+            <div>
+                <li><img alt="" src={this.props.searchResults[0]}></img></li><br></br>
+                <li><img alt="" src={this.props.searchResults[1]}></img></li><br></br>
+                <li><img alt="" src={this.props.searchResults[2]}></img></li><br></br>
+            </div>
+
         )
     }
   
